@@ -1,38 +1,26 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.container {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  height: 100vh;
+  gap: 1rem;
+  font-size: 2rem;
 }
 
-.App-link {
-  color: #61dafb;
+.container button {
+  padding: 0.5rem 1rem;
+  font-size: 1.5rem;
+  color: white; /* Mengatur warna teks menjadi putih */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.container .button-decrement {
+  background-color: red; /* Mengatur warna latar tombol decrement menjadi merah */
+}
+
+.container .button-increment {
+  background-color: green; /* Mengatur warna latar tombol increment menjadi hijau */
+}
+
+.container span {
+  padding: 0.5rem 1rem;
 }
